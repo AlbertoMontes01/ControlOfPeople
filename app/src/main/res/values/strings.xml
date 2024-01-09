@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ExamenSegunda</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombre">Nombre</string>
+    <string name="direccion">Direccion</string>
+    <string name="telefono">Telefono</string>
+    <string name="client_name_req">Nombre <font color="#FF0000">*</font></string>
+    <string name="client_address_req">Direccion  <font color="#FF0000">*</font></string>
+    <string name="client_phone_req">Telefono <font color="#FF0000">*</font></string>
+    <string name="client_email_req">Correo <font color="#FF0000">*</font></string>
+    <string name="client_photo_req">Foto <font color="#FF0000">*</font></string>
+    <string name="correo">Correo</string>
+    <string name="add_new_client">add new client</string>
+    <string name="add_fragment_title">Add Client</string>
+    <string name="delete_question">Are you sure you want to delete?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="save">Save</string>
+    <string name="nombreDetails">Nombre : </string>
+    <string name="direccion_details">Direccion : </string>
+    <string name="telefono_details">Telefono : </string>
+    <string name="correo_details">Correo : </string>
+    <string name="edit">Edit</string>
+    <string name="edit_fragment_title">Edit Client</string>
+    <string name="delete">Delete</string>
+    <string name="lista_de_clientes">Lista De clientes</string>
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/client_photo"
+        app:shapeAppearanceOverlay="@style/imageRadius"
+        android:scaleType="centerInside"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/client_name"
+        style="@style/Widget.Examen.Body"
+        android:textColor="#3876BF"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:text="Alberto David Vazquez Montes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/client_photo"
+        app:layout_constraintStart_toEndOf="@id/client_photo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/client_address"
+        style="@style/Widget.Examen.Body"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:text="Emilio Carranza 234 Colonia centro de colima CP 28000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/client_photo"
+        app:layout_constraintStart_toEndOf="@id/client_photo"
+        app:layout_constraintTop_toBottomOf="@id/client_name" />
+
+    <TextView
+        android:id="@+id/client_phone"
+        style="@style/Widget.Examen.Body"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:text="3121205327"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/client_photo"
+        app:layout_constraintTop_toBottomOf="@id/client_address" />
+
+    <TextView
+        android:id="@+id/client_email"
+        style="@style/Widget.Examen.Body"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:text="avazquez@ucol.mx"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/client_photo"
+        app:layout_constraintTop_toBottomOf="@id/client_phone" />
+
+    <View
+        android:id="@+id/divider2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/Divider"
+        android:outlineAmbientShadowColor="@color/night_blue"
+        app:layout_constraintTop_toBottomOf="@id/client_email"/>
+
+
+    <!-- OLD CLIENT_ITEM
+    <TextView
+        android:id="@+id/client_name"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:text="Alberto David Vazquez Montes"
+        app:layout_constraintEnd_toStartOf="@id/client_address"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/client_address"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:width="180dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:text="Emilio Carranza 234 Colonia centro de colima CP 28000"
+        app:layout_constraintStart_toEndOf="@id/client_name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/client_phone"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:width="180dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:text="3121205327"
+        app:layout_constraintStart_toEndOf="@id/client_address"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/client_email"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:width="180dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:text="avazquez@ucol.mx"
+        app:layout_constraintStart_toEndOf="@id/client_phone"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
